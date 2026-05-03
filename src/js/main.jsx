@@ -9,10 +9,10 @@ import "bootstrap"
 import '../styles/index.css'
 
 // components
-import ToDoList from './components/ToDoList';
+import Home from './components/Home';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <ToDoList/>
+    <Home/>
   </React.StrictMode>,
 )
